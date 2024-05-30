@@ -1,5 +1,5 @@
 # 377 
-A combination of [2584](https://github.com/TheReal23/2584) by TheReal23 and [256](https://github.com/aarextiaokhiao/Aarex2048) by Aarex Tiaokhiao, which are themselves descended from [2048](https://https://github.com/gabrielecirulli/2048) by Gabriele Cirulli.
+A combination of [2584](https://github.com/TheReal23/2584) by TheReal23 and [256](https://github.com/aarextiaokhiao/Aarex2048) by Aarex Tiaokhiao, which are themselves descended from [2048](https://github.com/gabrielecirulli/2048) by Gabriele Cirulli.
 
 You can play it in your browser [here.](http://lukemurphy147.github.io/377/)
 
