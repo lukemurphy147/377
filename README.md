@@ -1,11 +1,7 @@
-# 987 
-A fork of [2048](https://https://github.com/gabrielecirulli/2048) by Gabriele Cirulli.  I thought it would be nice to try the same game mechanics for other mathematical sequences... This one is using Fibonacci sequences. Next up will be a version using prime factors.
+# 377 
+A combination of [2584](https://github.com/TheReal23/2584) by TheReal23 and [256](https://github.com/aarextiaokhiao/Aarex2048) by Aarex Tiaokhiao, which are themselves descended from [2048](https://https://github.com/gabrielecirulli/2048) by Gabriele Cirulli.
 
-Made just for fun. [Play it here!](http://cozmic72.github.io/987/)
+You can play it in your browser [here.](http://lukemurphy147.github.io/377/)
 
 ## Notes on gameplay
-For fairly obvious reasons, I ommitted the 0 tile, and randomly generate ones and threes.  (Generating twos would be a bit pointless...) I tweaked the probablilities to make it challenging enough yet not too frustrating.  With the current settings, in my experience, 987 is quite achievable, but I have not managed to get it to 1597 more than once.
-
-Try setting the probability to 75% for a bit more of a challange.
-
-
+Like 2584, this version uses the Fibonacci sequence instead of powers of 2. Like 256, the grid is reduced to 3x3, and only the lowest number (in this case 1) can spawn.
