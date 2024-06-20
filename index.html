@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2584 - 2048 clone using Fibonacci sequence</title>
+  <title>377 - 3x3 2048 clone using Fibonacci sequence</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -12,15 +12,15 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
-  <meta property="og:title" content="987 game - 2048 with Fibonacci numbers"/>
-  <meta property="og:site_name" content="987 game"/>
-  <meta property="og:description" content="Join the Fibonacci numbers and get to the 987 tile!"/>
-  <meta property="og:image" content="http://cozmic72.github.io/987/meta/og_image.png"/>
+  <meta property="og:title" content="377 game - 3x3 2048 with Fibonacci numbers"/>
+  <meta property="og:site_name" content="377 game"/>
+  <meta property="og:description" content="Join the Fibonacci numbers and get to the 377 tile!"/>
+  <meta property="og:image" content="http://cozmic72.github.io/987/meta/og_image.png"/> <!--This link is broken, but I don't think it matters for my purposes-->
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2584</h1>
+      <h1 class="title">377</h1>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -28,7 +28,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to the <strong>2584 tile!</strong></p>
+      <p class="game-intro">Join the numbers and get to the <strong>377 tile!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
 
@@ -46,22 +46,13 @@
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
         </div>
         <div class="grid-row">
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-          <div class="grid-cell"></div>
-        </div>
-        <div class="grid-row">
-          <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
           <div class="grid-cell"></div>
@@ -74,23 +65,26 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two neigbouring numbers from the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a> touch, they <strong>merge into the next one!</strong>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two consecutive <a href="https://en.wikipedia.org/wiki/Fibonacci_sequence" target="_blank">Fibonacci numbers</a> touch, they <strong>merge into the next one.</strong>
     </p>
     <p>
-      <strong class="important">The Fibonacci series:</strong> For those unfamiliar with the <a href="http://en.wikipedia.org/wiki/Fibonacci_number" target="_blank">Fibonacci numbers</a>, the first eleven numbers are: 
+      <strong class="important">The Fibonacci sequence:</strong> The first two terms of the Fibonacci sequence are 0 and 1, and each term after that is the sum of the previous two:
     </p>
     <p>
-      <strong>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...</strong> 
+      <strong>0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, ...</strong>
     </p>
     <p>
-      Each number in the series is formed by the sum of the two previous numbers!
+      (0 is omitted from this game for obvious reasons.)
+    </p>
+    <p>
+      <strong class="important">Other differences from 2048:</strong> This game is played on a 3x3 grid instead of the usual 4x4. Also, after each move, the tile that spawns is always a 1, unlike 2048's 10% chance of spawning a 4 instead of a 2.
     </p>
     <hr>
     <p>
-    <strong class="important">Note:</strong> 2584 version created by TheReal23.
+    <strong class="important">Note:</strong> 377 version created by Luke Murphy.
     </p>
     <hr>
-    <p>Based on 2048, created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli,</a> which was in turn based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a> The adaptation to '2584' and the Fibonacci sequence is by Jonathan Ross. 
+    <p>This game is a combination of <a href="https://thereal23.github.io/2584" target="_blank">2584</a> by TheReal23 and <a href="https://aarextiaokhiao.github.io/Aarex2048/256" target="_blank">256</a> by Aarex Tiaokhiao. 2584 is based on <a href="https://cozmic72.github.io/987" target="_blank">987</a> by cozmic72, which (along with 256) is based on <a href="https://play2048.co" target="_blank">2048</a> by Gabriele Cirulli, which is based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024!</a> by Veewo Studio and conceptually similar to <a href="http://play.threesgame.com" target="_blank">Threes!</a> by Asher Vollmer. (Sheesh.) See also true65536's <a href="https://true65536.github.io/allthe2048" target="_blank">huge list of 2048 variants</a>.
     </p>
   </div>
 
